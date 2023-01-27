@@ -1,9 +1,13 @@
-import React from 'react'
+import { Stack } from '@chakra-ui/react';
+import React from 'react';
+import Slider from '../components/pages/Slider';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <Stack>
+      <Slider />
+    </Stack>
+  );
+};
 
-export default Home
+export default Home;
